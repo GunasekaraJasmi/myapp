@@ -4,7 +4,7 @@ import image1 from '../images/image1.jpg'
 import image2 from '../images/image2.jpg'
 import image5 from '../images/image5.jpg'
 import image4 from '../images/image4.jpeg'
-
+import image7 from '../images/image7.jpg'
 
 const Health = () => {
     return (
@@ -46,6 +46,14 @@ const Health = () => {
                       <h4>Dental Unit</h4>
                       <p>After booking a date and time with an appointment as per your requirement,
                          you can come to our dentsl unit and get the services you need.</p> 
+                   </div>
+
+                   <div>
+                      <img src={image7} alt=''/>
+                      <h4>Ambulance Service</h4>
+                      <p>This is a 24 hours active service. This provides transportation services to 
+                         the patients who obtain services from the clinic and it is tailored to the needs of the patients.
+                      </p> 
                    </div>
 
                 </div>
